@@ -10,7 +10,7 @@
         <nav>
             <ul class="navbar">
                 <li>
-                    <a href="">Duck</a>
+                    <a href="{{url('/duck')}}">Duck</a>
                 </li>
                 <li>
                     <a href="">Cat</a>
