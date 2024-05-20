@@ -1,0 +1,6 @@
+body{
+    background-color: rgb(123, 182, 118);
+}
+.navbar{
+    display: flex;
+}
