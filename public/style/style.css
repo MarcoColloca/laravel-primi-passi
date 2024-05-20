@@ -1,3 +1,4 @@
+/* Reset Rules */
 *{
     box-sizing: border-box;
     margin: 0;
@@ -19,15 +20,17 @@ img{
 
 
 
+/* General */
+
 body{
-    background-color: rgb(123, 182, 118);
+    background-color: rgb(88, 88, 88);
 }
 
 
 
-/* Duck Page*/
+/* Img Container*/
 
-.duck-img{
+.container-img{
     padding: 100px 0;
     display: flex;
     justify-content: center;
@@ -35,7 +38,7 @@ body{
     height: 100%;
 }
 
-.duck-img img{
+.container-img img{
     max-width: 300px;
 }
 
@@ -64,3 +67,16 @@ body{
     color: black;
 }
 
+/* Home */
+
+
+.title-box{
+    padding: 100px 0;
+}
+
+
+.title{
+    font-size: 140px;
+    text-align: center;
+    color: coral;
+}

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello Laravel</title>
+    <title>Flayer</title>
     <link rel="stylesheet" href="/style/style.css">
 </head>
 <body>
@@ -11,28 +11,18 @@
         <nav>
             <ul class="navbar">
                 <li>
-                    <a href="{{url('/duck')}}">Duck</a>
+                    <a href="{{url('/')}}">Home</a>
                 </li>
                 <li>
-                    <a href="{{url('/flayer')}}">Flayer</a>
+                    <a href="{{url('/duck')}}">Duck</a>
                 </li>
             </ul>
         </nav>
     </header>
-
-
     <main>
-        <div class="title-box">
-            <h1 class="title">
-                Hello World!
-            </h1>
-        </div>        
+        <div class="container-img">
+            <img src="/imgs/ChibiFlayer.png" alt="">
+        </div>
     </main>
 </body>
-
-<style>
-    /* body{
-        background-color: blueviolet;
-    } */
-</style>
 </html>

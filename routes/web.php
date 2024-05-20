@@ -21,3 +21,8 @@ Route::get('/', function () {
 Route::get('/duck', function () {
     return view('duck');
 });
+
+
+Route::get('/flayer', function () {
+    return view('flayer');
+});
