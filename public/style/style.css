@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol, menu{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: currentColor;
+}
+
+img{
+    max-width: 100%;
+}
+
+
+
+body{
+    background-color: rgb(123, 182, 118);
+}
+
+
+
+/* Duck Page*/
+
+.duck-img{
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.duck-img img{
+    max-width: 300px;
+}
+
+
+
+/* Navbar*/
+
+.navbar{
+    display: flex;
+    padding: 30px;
+    background-color: cornflowerblue;
+    color: white;
+    justify-content: center;
+}
+
+.navbar a{
+    margin-right: 20px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+
+.navbar a:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 18px;
+    color: black;
+}
+

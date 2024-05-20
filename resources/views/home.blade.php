@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hello Laravel</title>
+    <link rel="stylesheet" href="/style/style.css">
 </head>
 <body>
     <header>
@@ -11,9 +12,6 @@
             <ul class="navbar">
                 <li>
                     <a href="{{url('/duck')}}">Duck</a>
-                </li>
-                <li>
-                    <a href="">Cat</a>
                 </li>
                 <li>
                     <a href="">Flayer</a>
