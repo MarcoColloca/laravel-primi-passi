@@ -14,7 +14,7 @@
                     <a href="{{url('/duck')}}">Duck</a>
                 </li>
                 <li>
-                    <a href="{{url('/flayer')}}">Flayer</a>
+                    <a href="{{route('fly')}}">Flayer</a>
                 </li>
             </ul>
         </nav>

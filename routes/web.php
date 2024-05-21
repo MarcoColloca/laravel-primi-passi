@@ -25,4 +25,4 @@ Route::get('/duck', function () {
 
 Route::get('/flayer', function () {
     return view('flayer');
-});
+})->name('fly');
